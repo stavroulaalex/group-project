@@ -4,9 +4,14 @@
     box-sizing: border-box;
  }
 
+ body{
+   background-color: lightblue;
+   color: darkblue;
+ }
+
  .carousel-item {
     height: 600px;
-    width: 4000px;
+    
  }
 
  .carousel-item img {
@@ -17,4 +22,10 @@
 .title {
    margin-bottom: 30px;
    text-align: center;
+}
+
+.space {
+   margin-top: 40px;
+   text-align: center;
+   margin-bottom: 40px;
 }
